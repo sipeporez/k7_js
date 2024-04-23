@@ -4,15 +4,12 @@
     box-sizing: border-box;
 }
 
-a,
-a:link,
-a:visited {
+nav a,
+nav a:link,
+nav a:visited {
     text-decoration: none;
     color: black;
-}
-
-a:hover {
-    background-color: white;
+    font-size: 1.15rem;
 }
 
 li {
@@ -37,8 +34,8 @@ header {
     color: white;
 }
 
-header button {
-    background: transparent;
+header a {
+    text-decoration: none;
     border:none;
     cursor: pointer;
     color: white;
@@ -63,10 +60,6 @@ nav li {
     border: none;
 }
 
-nav a {
-    font-size: 1.15rem;
-}
-
 nav li:hover {
     background-color: white;
 }
@@ -82,4 +75,11 @@ section li {
 section li:hover {
     background-color: coral;
     color: white;
+}
+
+section a,
+section a:link,
+section a:visited {
+    text-decoration: none;
+    color: black;
 }
