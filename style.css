@@ -43,6 +43,15 @@ header a {
     padding: 10px;
 }
 
+header p {
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    background-color:cadetblue;
+    border-radius: 10px;
+}
+
 nav ul {
     width: 100%;
     display: flex;
