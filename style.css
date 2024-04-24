@@ -39,15 +39,14 @@ header a {
     border:none;
     cursor: pointer;
     color: white;
-    font-size: 1.2rem;
-    padding: 10px;
+    padding: 20px;
 }
 
 header p {
     display: inline-flex;
     justify-items: center;
     align-items: center;
-    padding: 20px;
+    font-size: 1.2rem;
     background-color:cadetblue;
     border-radius: 10px;
 }
