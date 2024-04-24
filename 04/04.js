@@ -1,12 +1,14 @@
 document.addEventListener ('DOMContentLoaded', () => {
 
     const btDiv = document.getElementById('btDiv2');
+    
     const bt1 = document.createElement('button');
     const bt2 = document.createElement('button');
     const bt3 = document.createElement('button');
     const bt4 = document.createElement('button');
     const bt5 = document.createElement('button');
     const bt6 = document.createElement('button');
+
     const bt1Txt = document.createTextNode('1번');
     const bt2Txt = document.createTextNode('2번');
     const bt3Txt = document.createTextNode('3번');
@@ -55,7 +57,7 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
-    
+
     bt3.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
 
