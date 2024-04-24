@@ -36,7 +36,7 @@ document.addEventListener ('DOMContentLoaded', () => {
 
     bt1.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+        
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/1.png`);
                 
