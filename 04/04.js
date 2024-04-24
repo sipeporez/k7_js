@@ -43,9 +43,10 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
+
     bt2.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/2.png`);
                 
@@ -54,9 +55,10 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
+    
     bt3.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/3.png`);
                 
@@ -65,9 +67,10 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
+
     bt4.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/4.png`);
                 
@@ -76,9 +79,10 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
+
     bt5.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/5.png`);
                 
@@ -87,9 +91,10 @@ document.addEventListener ('DOMContentLoaded', () => {
         else 
             check.innerHTML = ('<h1>틀렸습니다.</h1>');
     });
+
     bt6.addEventListener('click',()=>{
         rand = Math.floor(Math.random()*6)+1;
-        console.log(`${rand}`)
+
         IMG.setAttribute('src', `../img/01_dice/${rand}.png`);
         IMG2.setAttribute('src', `../img/01_dice/6.png`);
         
