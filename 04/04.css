@@ -1,0 +1,40 @@
+#btDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.sectionDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.h2 {
+    border: none;
+}
+
+.section_img {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    margin: 60px;
+}
+
+.img {
+    border: none;
+}
+
+#btDiv2 {
+    width: 100%;
+    border:none;
+    text-align: center;
+    justify-content: center;
+}
