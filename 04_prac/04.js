@@ -53,17 +53,20 @@ document.addEventListener('DOMContentLoaded', () => {
         i.addEventListener('click', () => {
 
             // 랜덤 난수 생성 (범위 1~6)
-            let rand = Math.floor(Math.random() * 6) + 1;
-            console.log(i.innerHTML.substring(0,1));
-            // innerHTML로 각 버튼에 해당하는 속성값 출력
-            // substring()으로 문자열을 잘라내어 사용자 숫자 추출
+            const rand = Math.floor(Math.random() * 6) + 1;
+            
+            // 사용자 숫자 생성
+            // substring()으로 문자열을 잘라내어 사용자 숫자 추출 후
+            // praseInt()로 데이터 타입까지 변환
+            const user = parseInt(i.innerHTML.substring(0, 1));
+            
             // 백틱 문자열 `` 로 이미지 경로에 숫자 삽입하여 이미지 변경
             IMG_COM.setAttribute('src', `../img/01_dice/${rand}.png`);
-            IMG_USER.setAttribute('src', `../img/01_dice/${i.innerHTML.substring(0, 1)}.png`);
-
+            IMG_USER.setAttribute('src', `../img/01_dice/${user}.png`);
 
             // 랜덤값과 사용자 숫자값에 따른 조건문
-            if (rand == i.innerHTML.substring(0, 1))
+            // === 는 값 뿐만 아니라 데이터 타입까지 비교
+            if (rand === user)
                 msg.innerHTML = '맞췄습니다';
             else
                 msg.innerHTML = '틀렸습니다';
