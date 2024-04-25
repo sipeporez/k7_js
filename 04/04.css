@@ -9,7 +9,6 @@
 .sectionDiv {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -22,7 +21,7 @@
 
 .section_img {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border: none;
     margin: 60px;

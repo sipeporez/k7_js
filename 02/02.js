@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btDiv = document.getElementById('btDiv');
     const bt1 = document.createElement('button');
-    const bt1Txt = document.createTextNode('버튼11');
+    const bt1Txt = document.createTextNode('생성');
     const bt2 = document.createElement('button');
-    const bt2Txt = document.createTextNode('버튼22');
+    const bt2Txt = document.createTextNode('제거');
     const bt3 = document.createElement('button');
-    const bt3Txt = document.createTextNode('버튼33');
+    const bt3Txt = document.createTextNode('생성,제거');
 
     const msg = document.querySelector('#msg');
 
