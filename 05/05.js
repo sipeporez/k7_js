@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let rand;
     let flag = true;
     
-    bt.addEventListener('click', () => {
+    bt.addEventListener('click', (e) => {
+        // form 태그 사용시 콜백되지 않도록
+        e.preventDefault();
+
         let val = input.value;
 
         // flag가 true일때만 랜덤 수 생성

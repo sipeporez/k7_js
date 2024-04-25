@@ -25,3 +25,10 @@ input {
 .button{
     width:50%;
 }
+
+form{
+    display:flex;
+}
+form .button{
+    width:100%;
+}
