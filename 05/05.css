@@ -1,0 +1,27 @@
+#sectionDiv {
+    flex-direction: column;
+    height: 50%;
+}
+
+.sectionDiv, .section_img, #formDiv{
+    border: none;
+}
+
+.sectionDiv {
+    width: 100%;
+}
+
+.section_img {
+    justify-content: space-around;
+    margin: 100px;
+}
+
+input {
+    height:40px;
+    font-size:large;
+    text-align: center;
+}
+
+.button{
+    width:50%;
+}
