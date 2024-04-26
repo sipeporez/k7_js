@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // 입력되지 않은 경우
         else if (inval == '') {
-            alert('숫자를 입력해주세요' + rand);
+            alert('숫자를 입력해주세요');
             count++;
             return;
         }
