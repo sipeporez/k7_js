@@ -1,0 +1,43 @@
+#sectionDiv {
+    display: flex;
+    height: 200px;
+}
+
+#formDiv, #form, .c_temp, .f_temp, .input {
+    border: none;
+}
+
+#formDiv {
+    width: 100%;
+    height: 100px;
+}
+
+#form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.c_temp, .f_temp {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width:70%;
+    padding: 5px 0;
+    font-size: large;
+}
+
+.input {
+    justify-content: left;
+}
+input {
+    width:100px;
+    height:30px;
+    margin: 10px 0px;
+    margin-right:5px;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+}
