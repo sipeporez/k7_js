@@ -3,7 +3,7 @@
     height: 50%;
 }
 
-.sectionDiv, .section_img, #formDiv{
+.sectionDiv, .section_img, #formDiv, .count{
     border: none;
 }
 
@@ -22,13 +22,10 @@ input {
     text-align: center;
 }
 
-.button{
-    width:50%;
+.button, .button1{
+    width:100%;
 }
 
 form{
     display:flex;
-}
-form .button{
-    width:100%;
 }
