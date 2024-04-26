@@ -46,3 +46,7 @@ input {
     border:1px solid grey;
     cursor:default;
 }
+
+#input_label, #result_label {
+    font: bold;
+}

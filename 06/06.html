@@ -7,7 +7,7 @@
     <title>06. 단위 환산</title>
     <link rel="stylesheet" href="../01/01.css">
     <link rel="stylesheet" href="./06.css">
-    <script src="./05.js"></script>
+    <script src="./06.js"></script>
 </head>
 
 <body>
@@ -24,22 +24,26 @@
                 <div id="formDiv">
                     <form id="form">
                         <div class="c_temp">
-                            <select name='units1'>
+                            <select id="units1" name="sel1">
                                 <option value="°C">섭씨온도 (°C)</option>
                                 <option value="°F">화씨온도 (°F)</option>
                             </select>
                             <div class="input">
-                            <input id="input_data" type="number"><strong>°C</strong>
-                        </div>
+                                <input id="input_data" type="number">
+                                <label id="input_label">°C
+                                </label>
+                            </div>
                         </div>
                         <div class="f_temp">
-                            <select name='units2'>
+                            <select id='units2' name="sel2">
                                 <option value="°F">화씨온도 (°F)</option>
                                 <option value="°C">섭씨온도 (°C)</option>
                             </select>
                             <div class="input">
-                            <input id="input_result" readonly><strong>°F</strong>
-                        </div>
+                                <input id="input_result" readonly>
+                                <label id="result_label">°F
+                                </label>
+                            </div>
                         </div>
                     </form>
                 </div>
