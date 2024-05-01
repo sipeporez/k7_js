@@ -1,0 +1,44 @@
+#sectionDiv {
+    display: flex;
+    height: 100%;
+}
+
+#formDiv,
+#form,
+.input {
+    width:100%;
+    border: none;
+}
+
+#formDiv {
+    height: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    justify-content: center;
+    height: 100%;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.2rem 0.4rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    cursor: default;
+}
+
+.button1 {
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
