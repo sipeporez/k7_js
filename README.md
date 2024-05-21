@@ -1,3 +1,4 @@
+# https://sipep-js.vercel.app/
 # K-digital 7기 자바스크립트
 + 04.22 : HTML/CSS 복습, git 연습
 + 04.23 : js 기본 문법
